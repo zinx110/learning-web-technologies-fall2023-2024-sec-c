@@ -2,16 +2,28 @@
      <Student serial="1">
         <sl_no>23</sl_no>
         <name>John Carter</name>
-        <admissionDate>25/12/2015</admissionDate>
+        <admissionDate>
+            <day>25</day>
+            <month>12</month>
+            <year>2015</year>
+        </admissionDate>
     </Student>
     <Student serial="2">
         <sl_no>29</sl_no>
         <name>Bob Marshal</name>
-        <admissionDate>13/01/1999</admissionDate>
+        <admissionDate>
+            <day>13</day>
+            <month>01</month>
+            <year>1999</year>
+        </admissionDate>
     </Student>
     <Student serial="3">
         <sl_no>35</sl_no>
         <name>Clark Kent</name>
-        <admissionDate>17/06/2005</admissionDate>
+        <admissionDate>
+            <day>17</day>
+            <month>06</month>
+            <year>2005</year>
+        </admissionDate>
     </Student>
 </Students>
