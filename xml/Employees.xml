@@ -2,21 +2,39 @@
     <Employee serial="1">
         <Id>1</Id>
         <Name>John Carter</Name>
-        <Address>H# 38, R#3, Banani, Dhaka</Address>
+        <Address>
+            <Flat></Flat>
+            <House>38</House>
+            <Road>3</Road>
+            <Area>Banani</Area>
+            <City>Dhaka</City>
+        </Address>
         <Department>Sales</Department>
         <Salary>$20000</Salary>
     </Employee>
     <Employee serial="2">
         <Id>2</Id>
         <Name>Mark Zuckerberg</Name>
-        <Address>Flat# A/1, H# 20, R#18, Mirpur, Dhaka</Address>
+        <Address>
+            <Flat>A/1</Flat>
+            <House>20</House>
+            <Road>18</Road>
+            <Area>Mirpur</Area>
+            <City>Dhaka</City>
+        </Address>
         <Department>Accounts</Department>
         <Salary>$12000</Salary>
     </Employee>
     <Employee serial="3">
         <Id>3</Id>
         <Name>Ala Voski</Name>
-        <Address>H# 38, R#3, Motijheel</Address>
+        <Address>
+            <Flat></Flat>
+            <House>38</House>
+            <Road>3</Road>
+            <Area>Motijhee</Area>l
+            <City></City>
+        </Address>
         <Department>Human Resource</Department>
         <Salary>$30000</Salary>
     </Employee>
