@@ -1,11 +1,21 @@
-<html lang="en">
+<?php
+
+if(isset($_REQUEST['day'])){
+    echo $_REQUEST['day'],"/", $_REQUEST['month'],"/",$_REQUEST['year'];
+}
+
+
+?>
+
+<html >
     <head>
-        <title>Task 4</title>
+        <title>Task 3 [B]</title>
     </head>
     <body>
         <form method="" action="" enctype="">
-            <fieldset>
-                <legend><b>Gender</b></legend>
+        <fieldset>
+                <legend>DATE OF BIRTH</legend>
+
                 <table>
                     <tr align="center">
                         <td colspan="2">dd</td>

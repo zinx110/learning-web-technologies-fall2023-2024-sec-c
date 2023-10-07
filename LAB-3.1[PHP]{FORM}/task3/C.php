@@ -1,11 +1,12 @@
-<html lang="en">
+<html >
     <head>
-        <title>Task 4</title>
+        <title>Task 3 [C]</title>
     </head>
     <body>
         <form method="" action="" enctype="">
-            <fieldset>
-                <legend><b>Gender</b></legend>
+        <fieldset>
+                <legend>DATE OF BIRTH</legend>
+
                 <table>
                     <tr align="center">
                         <td colspan="2">dd</td>
@@ -19,7 +20,7 @@
                             <input
                                 type="text"
                                 name="day"
-                                value=""
+                                value="<?php if(isset($_REQUEST['day'])){echo $_REQUEST['day'];} ?>"
                                 maxlength="2"
                             />
                         </td>
@@ -28,7 +29,7 @@
                             <input
                                 type="text"
                                 name="month"
-                                value=""
+                                value="<?php if(isset($_REQUEST['month'])){echo $_REQUEST['month'];} ?>"
                                 maxlength="2"
                             />
                         </td>
@@ -37,7 +38,7 @@
                             <input
                                 type="text"
                                 name="year"
-                                value=""
+                                value="<?php if(isset($_REQUEST['year'])){echo $_REQUEST['year'];} ?>"
                                 maxlength="4"
                             />
                         </td>
@@ -47,6 +48,7 @@
                 <hr />
                 <input type="submit" value="Submit" />
             </fieldset>
+            
         </form>
     </body>
 </html>
