@@ -76,7 +76,7 @@ if (!isset($_COOKIE['auth'])) {
                                     ?>
                                 </td>
                                 <td width="200px" rowspan="4" align="center">
-                                    <img src="<?php echo isset($_COOKIE['pfp']) ? $_COOKIE['pfp'] : "pfp.png" ?>" alt="pfp">
+                                    <img src="pfp.png" alt="pfp">
 
                                 </td>
                             </tr>
