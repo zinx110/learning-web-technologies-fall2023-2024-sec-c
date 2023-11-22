@@ -15,7 +15,6 @@ function login($id, $password)
         }
         $user = $users[0];
         print_r($user[0]);
-
         session_start();
         $_SESSION['user'] = ['id' => $user['id'], 'name' => $user['name'], 'password' => $user['password'], 'type' => $user['user_type']];
 
@@ -34,10 +33,7 @@ function login($id, $password)
 function register($id, $name, $password, $type)
 {
 
-
-    $con = mysqli_connect('127.0.0.1', 'root', '', 'webtech');
-
-
+    $con = getConnection();
     $sql = "select * from users where id='{$id}'";
     $result = mysqli_query($con, $sql);
     $count = mysqli_num_rows($result);
@@ -56,6 +52,12 @@ function register($id, $name, $password, $type)
         }
     }
 }
+$arr1 = [1, 2, 3];
+$session = [];
+$session[0] = "abc";
+$session[1] = 23;
+$session[2] = 143;
+$session[2] = $arr1;
 
 function getUser($id)
 {

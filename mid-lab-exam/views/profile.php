@@ -4,7 +4,6 @@ include_once("../controls/userData.php");
 
 ?>
 
-
 <center>
 	<table border="1" cellpadding="5" cellspacing="0">
 		<tr>

@@ -1,4 +1,13 @@
 <?php
+
+
+session_start();
+if (!isset($_SESSION['auth'])) {
+	header('location: login.php');
+} else if ($_SESSION['user']['type'] != "admin") {
+	header('location: user_home.php');
+}
+
 include_once("../controls/sessionCheck_admin.php");
 include_once("../controls/userData.php");
 ?>
