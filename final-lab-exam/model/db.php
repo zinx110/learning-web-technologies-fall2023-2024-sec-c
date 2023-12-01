@@ -1,7 +1,7 @@
 <?php
 
 $dbhost = '127.0.0.1';
-$dbname = 'webtech-lab-exam';
+$dbname = 'webtech';
 $dbuser = 'root';
 $dbpassword = '';
 
