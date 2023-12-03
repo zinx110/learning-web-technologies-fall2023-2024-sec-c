@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>register</title>
+    </head>
+    <body>
+        <form>
+            Name : <input type="text" name="name" id="name" />
+            <br />
+            phone : <input type="text" name="phone" id="phone" />
+            <br />
+            email:
+            <input type="text" name="email" id="email" onblur="checkMail()" />
+            <br />
+            <p id="emailerror" style="color: red"></p>
+            <br />
+            Password : <input type="text" name="password" id="password" />
+            <br />
+            Confirm Password :
+            <input type="text" name="confirmPassword" id="confirmPassword" />
+            <br />
+            <input
+                type="button"
+                name="submit"
+                id="submit"
+                value="register"
+                onclick="validate()"
+            /><br />
+            <button>
+                <a href="login.php">go to login</a></button
+            ><br />
+            <p id="error" style="color: red"></p>
+        </form>
+        <script src="../assets/register.js"></script>
+    </body>
+</html>
